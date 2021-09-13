@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7d92e7bb-b9f9-4aee-8da1-476d34c561e3" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.nodejs-assignment.dir/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.nodejs-assignment.dir/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.nodejs-assignment.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.nodejs-assignment.dir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/queries/order.queries.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/queries/order.queries.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/screens/Order/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/screens/Order/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/screens/OrderHistory/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/screens/OrderHistory/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,7 +18,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/server" />
   </component>
   <component name="ProjectId" id="1y4cHZxIEi95kTbimsCPfvMBpXy" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -45,7 +43,7 @@
       <option name="presentableId" value="Default" />
       <updated>1631514213257</updated>
       <workItem from="1631514216617" duration="3938000" />
-      <workItem from="1631519121473" duration="8600000" />
+      <workItem from="1631519121473" duration="15240000" />
     </task>
     <servers />
   </component>

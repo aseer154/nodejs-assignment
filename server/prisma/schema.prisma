@@ -10,8 +10,14 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
+//datasource db {
+//  provider = "sqlite"
+//  url      = "file:.dev.db"
+//}
+
 generator typegraphql {
   provider = "typegraphql-prisma"
+  output   = "../src/generated/typegraphql-prisma"
 }
 
 model Product {

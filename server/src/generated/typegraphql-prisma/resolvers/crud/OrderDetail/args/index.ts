@@ -1,0 +1,12 @@
+export { AggregateOrderDetailArgs } from "./AggregateOrderDetailArgs";
+export { CreateManyOrderDetailArgs } from "./CreateManyOrderDetailArgs";
+export { CreateOrderDetailArgs } from "./CreateOrderDetailArgs";
+export { DeleteManyOrderDetailArgs } from "./DeleteManyOrderDetailArgs";
+export { DeleteOrderDetailArgs } from "./DeleteOrderDetailArgs";
+export { FindFirstOrderDetailArgs } from "./FindFirstOrderDetailArgs";
+export { FindManyOrderDetailArgs } from "./FindManyOrderDetailArgs";
+export { FindUniqueOrderDetailArgs } from "./FindUniqueOrderDetailArgs";
+export { GroupByOrderDetailArgs } from "./GroupByOrderDetailArgs";
+export { UpdateManyOrderDetailArgs } from "./UpdateManyOrderDetailArgs";
+export { UpdateOrderDetailArgs } from "./UpdateOrderDetailArgs";
+export { UpsertOrderDetailArgs } from "./UpsertOrderDetailArgs";

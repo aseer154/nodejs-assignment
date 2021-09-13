@@ -1598,6 +1598,13 @@ graphql-query-complexity@^0.7.0:
   dependencies:
     lodash.get "^4.4.2"
 
+graphql-scalars@^1.10.1:
+  version "1.10.1"
+  resolved "https://registry.yarnpkg.com/graphql-scalars/-/graphql-scalars-1.10.1.tgz#5b528446507d9c2bad4b813d0fcd306633e9fd77"
+  integrity sha512-/6vDkUogePfumSJaCRVrVT1vpEhvE0m36AHTPzhLC/tucWxVolOCj0EgGKVUMc0uehe93ByuRBj8rEDaPRXVxg==
+  dependencies:
+    tslib "~2.3.0"
+
 graphql-subscriptions@^1.1.0:
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/graphql-subscriptions/-/graphql-subscriptions-1.2.1.tgz#2142b2d729661ddf967b7388f7cf1dd4cf2e061d"
