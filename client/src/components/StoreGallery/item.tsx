@@ -1,4 +1,4 @@
-import { InputNumber, Button, Card } from 'antd';
+import { InputNumber, Button } from 'antd';
 import React from 'react';
 import styled from 'styled-components';
 import useAppStore, { Product } from '../../store';
@@ -52,7 +52,7 @@ const StoreGalleryItem: React.FC<StoreGalleryItemProps> = ({ item }) => {
 
 	const handleAddToCart = React.useCallback(
 		(item: Product, qty: number) => addItemToCart(item, qty),
-		[]
+		[addItemToCart]
 	);
 
 	const parse = (val: any) => parseInt(val);
@@ -61,7 +61,7 @@ const StoreGalleryItem: React.FC<StoreGalleryItemProps> = ({ item }) => {
 		<ItemBox>
 			<div>
 				<ImageHolder>
-					<img src={item.image} style={{ maxHeight: 90 }} />
+					<img src={item.image} style={{ maxHeight: 90 }} alt="" />
 				</ImageHolder>
 				<ItemName>{item.name}</ItemName>
 				<PriceTag>${item.price}</PriceTag>

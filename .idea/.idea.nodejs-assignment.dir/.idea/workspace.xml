@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7d92e7bb-b9f9-4aee-8da1-476d34c561e3" name="Changes" comment="" />
+    <list default="true" id="7d92e7bb-b9f9-4aee-8da1-476d34c561e3" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.nodejs-assignment.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.nodejs-assignment.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/StoreGallery/item.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/StoreGallery/item.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/screens/Order/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/screens/Order/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/screens/OrderHistory/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/screens/OrderHistory/index.tsx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,7 +26,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="ts.external.directory.path" value="$PROJECT_DIR$/server/node_modules/typescript/lib" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/client/node_modules/typescript/lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -33,6 +38,7 @@
       <option name="presentableId" value="Default" />
       <updated>1631514213257</updated>
       <workItem from="1631514216617" duration="3938000" />
+      <workItem from="1631519121473" duration="1801000" />
     </task>
     <servers />
   </component>
@@ -40,7 +46,7 @@
     <option name="version" value="3" />
   </component>
   <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
-  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -52,6 +58,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />

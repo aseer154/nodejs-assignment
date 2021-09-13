@@ -8,7 +8,7 @@ import useAppStore, { Order } from '../../store';
 
 const OrderHistoryPage: React.FC = () => {
 	const history = useHistory();
-	const orders = useAppStore((state) => state.orders);
+	const {data: orders} = useQuery(GET_ORDERS); //useAppStore((state) => state.orders);
 
     console.log(orders);
 
@@ -56,7 +56,7 @@ const OrderHistoryPage: React.FC = () => {
                 <div>
                     <Table
                         columns={columns}
-                        dataSource={orders}
+                        dataSource={orders.orderDetails}
                         />
                 </div>)}
             </div>
