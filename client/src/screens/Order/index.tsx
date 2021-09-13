@@ -123,10 +123,6 @@ const OrderPage: React.FC<OrderPageProps> = ({}) => {
 		},
 	];
 	
-	React.useEffect(() => {
-		console.log(cart);
-	}, [cart])
-
 	return (
 		<>
 			<div
