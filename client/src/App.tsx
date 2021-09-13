@@ -15,7 +15,8 @@ import OrderHistoryPage from './screens/OrderHistory';
 
 const client = new ApolloClient({
 	cache: new InMemoryCache(),
-	link: new HttpLink({ uri: 'http://localhost:4000' }),
+	link: new HttpLink({ uri: 'https://adam-graphql-server.herokuapp.com' }),
+	//link: new HttpLink({ uri: 'http://localhost:4000' }),
 });
 
 function App() {
